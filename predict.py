@@ -82,7 +82,8 @@ if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:
         command_to_predict = " ".join(sys.argv[1:])
-        predict_command(command_to_predict)
+        out = predict_command(command_to_predict)
+        print(out)
     else:
         print("Please provide a command to predict.")
 
