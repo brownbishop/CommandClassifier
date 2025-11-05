@@ -104,8 +104,7 @@ sudo apt install ./Insomnia.Core-11.6.1.deb                  YES
 sudo apt install ptyxis                  YES
 sudo apt update && sudo apt upgrade               YES
 sudo dmesg | grep usb                 YES
-sudo echo on >  "/sys/bus/usb/devices/usb1/power/control
-sudo echo ""on" >  /sys/bus/usb/devices/usb1/power/control             YES
+sudo echo on > /sys/bus/usb/devices/usb1/power/control                 YES
 sudo su                    YES
 systemctl poweroff                    YES
 vim                     YES
