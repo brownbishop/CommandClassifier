@@ -1,3 +1,4 @@
+#!/home/catalin/repos/CommandClassifier/venv/bin/python3
 import tkinter as tk
 from tkinter import ttk
 from predict import predict_command
@@ -27,23 +28,25 @@ root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 style = ttk.Style(root)
 style.theme_use("clam")
 
-# Colors
-BG_COLOR = "#f0f0f0"
-FG_COLOR = "#333333"
-BTN_BG_COLOR = "#4a90e2"
-BTN_FG_COLOR = "white"
+# Gruvbox Colors (Dark)
+BG_COLOR = "#282828"
+FG_COLOR = "#ebdbb2"
+BTN_BG_COLOR = "#458588"
+BTN_FG_COLOR = "#ebdbb2"
+ACTIVE_BTN_BG_COLOR = "#076678"
 
 root.configure(bg=BG_COLOR)
 
 # Configure styles
 style.configure("TLabel", background=BG_COLOR, foreground=FG_COLOR, font=("Helvetica", 12))
-style.configure("TButton", background=BTN_BG_COLOR, foreground=BTN_FG_COLOR, font=("Helvetica", 12, "bold"))
-style.map("TButton", background=[("active", "#357abd")])
-style.configure("TEntry", font=("Helvetica", 12))
+style.configure("TButton", background=BTN_BG_COLOR, foreground=BTN_FG_COLOR, font=("Helvetica", 12, "bold"), borderwidth=0)
+style.map("TButton", background=[("active", ACTIVE_BTN_BG_COLOR)])
+style.configure("TEntry", fieldbackground=BG_COLOR, foreground=FG_COLOR, insertcolor=FG_COLOR, font=("Helvetica", 12))
 
 
 # Create a frame for the content
-main_frame = ttk.Frame(root, padding="20")
+main_frame = ttk.Frame(root, padding="20", style="TFrame")
+style.configure("TFrame", background=BG_COLOR)
 main_frame.pack(expand=True, fill="both")
 
 
