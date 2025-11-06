@@ -8,6 +8,7 @@ def create_features(command):
     Creates the feature vector for a given command.
     """
     features = {}
+    features['command'] = str(command)
     words = str(command).split()
     num_words = len(words)
 
@@ -49,7 +50,7 @@ def create_features(command):
         features['entropy_cons'] = np.log(entropy + 0.01)
     else:
         features['entropy_cons'] = 0
-    
+
     return features
 
 def predict_command(command_str):
@@ -67,17 +68,19 @@ def predict_command(command_str):
 
     # Create a dataframe
     df = pd.DataFrame([features])
-    
+
     feature_columns = [
-        'num_words', 'mean_word_len', 'num_unique_words', 'num_chars',
+        'command', 'num_words', 'mean_word_len', 'num_unique_words', 'num_chars',
         'num_words_upper', 'num_punctuations', 'entropy_words', 'total_words',
         'unique_word', 'total_voals', 'unique_voals', 'entropy_voals',
         'total_cons', 'unique_cons', 'entropy_cons'
     ]
     df = df[feature_columns]
 
+    df['command'] = df['command'].astype('category')
+
     # Create DMatrix
-    dmatrix = xgb.DMatrix(df)
+    dmatrix = xgb.DMatrix(df, enable_categorical=True)
 
     # Predict
     prediction = bst.predict(dmatrix)
